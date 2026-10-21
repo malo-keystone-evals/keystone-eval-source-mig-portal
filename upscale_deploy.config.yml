@@ -1,0 +1,9 @@
+# A modern project's deploy config, for the rehearsal only.
+components:
+  - keystone
+base:
+  name: keystone-eval-source-mig-portal
+environments:
+  production:
+    context: rehearsal-cluster
+    host: keystone-eval-source-mig-portal.rehearsal.example
